@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+}
+
+#main-container {
+    border: 1px solid hsl(225, 100%, 94%);
+    border-radius: 15px;
+    height: 540px;
+    width: 350px;
+    position: fixed;
+    top: 10%;
+    left: 38%;
+    transform: translate(-50% -50%);
+    background-color: white;
+    
+}
+
+.back-image {
+    width: 100%;
+    position: absolute;
+}
+
+.image-hero {
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.order-sum {
+    position: relative;
+    left: 80px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'outfit', sans-serif;
+    color: hsl(223, 47%, 23%)
+}
+
+.paragraph {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'outfit', sans-serif;
+    padding-left: 10px;
+    padding-right: 55px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+}
+
+#plan-container {
+    border: solid 1px hsl(225, 100%, 98%);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    height: 80px;
+    width: 265px;
+    background-color: hsl(225, 100%, 98%);
+    
+}
+
+.music-logo {
+    width: 40px;
+    margin: 20px 50px 25px 15px; 
+}
+
+.duration {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'outfit', sans-serif;
+    letter-spacing: -1px;
+
+}
+
+.amount {
+    position: absolute;
+    top: 25px;
+    left: 70px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'outfit', sans-serif;
+}
+
+.link {
+    position: absolute;
+    top: 15px;
+    left: 195px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'outfit', sans-serif;
+    letter-spacing: -1px;
+}
+
+.payment-button {
+    position: relative;
+    top: 10px;
+    left: 35px;
+    border: solid 1px hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 2px 9px 13px -6px hsl(223, 47%, 23%);
+}
+
+.payment-text {
+    position: relative;
+    top: 2px;
+    left: 6px;
+    font-weight: 900;
+    font-size: 11px;
+    font-family: 'outfit' , sans-serif;
+}
+   
+.cancle {
+    position: relative;
+    left: 130px;
+    top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'outfit' , sans-serif;
+    letter-spacing: -1.2px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
